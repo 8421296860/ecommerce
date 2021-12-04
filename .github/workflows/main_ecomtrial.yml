@@ -65,6 +65,6 @@ jobs:
           app-name: 'ecomtrial'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8E76FF190E9E4934A478A25DA5AA1B4E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BBAF4551AD844719A681F74951F08688 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
